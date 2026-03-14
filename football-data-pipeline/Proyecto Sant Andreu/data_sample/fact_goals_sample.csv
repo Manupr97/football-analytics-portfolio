@@ -1,0 +1,11 @@
+match_id,goal_index,minute,minute_display,scorer_player_id,scorer_player_sk,scorer_name,assist_player_id,assist_player_sk,assist_name,team_id,team_name,side,goal_type,fecha_actualizacion
+202621129,0,43,43',833686,833686,Kun,,,,427,Barbastro,local,penalty,2026-03-09
+202621129,1,90,90',993186,993186,Marc Fuentes,424189,424189,Víctor Maffeo,4781,UE Olot,visitor,normal,2026-03-09
+202621135,0,7,7',765542,765542,Soule,,,,138431,Atlètic Lleida,local,normal,2026-03-09
+202621135,1,45,45',211518,211518,Fer Cano,,,,2518,Torrent CF,visitor,normal,2026-03-09
+202621135,2,84,84',891921,891921,Boris Kouassi,,,,2518,Torrent CF,visitor,normal,2026-03-09
+202621135,3,96,90'+6,1026014,1026014,Asier Ortíz,,,,138431,Atlètic Lleida,local,normal,2026-03-09
+202621139,0,91,90'+1,999074,999074,Víctor Barberà,3184183,3184183,J. Anaya,430,Barça Atlètic,local,normal,2026-03-09
+202621139,1,94,90'+4,3341870,3341870,Toni Fernández,999074,999074,Víctor Barberà,430,Barça Atlètic,local,normal,2026-03-09
+202621145,0,21,21',,-146502702,Jaume Tovar,,-1397078040,Gabriel,5465,Atlético Baleares,local,normal,2026-03-09
+202621145,1,33,33',112768,112768,Florin Andone,,,,5465,Atlético Baleares,local,penalty,2026-03-09

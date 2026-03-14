@@ -1,0 +1,152 @@
+# =============================================================================
+# competitions.yaml — Configuración declarativa de competiciones
+#
+# CÓMO AÑADIR UNA COMPETICIÓN NUEVA:
+#   1. Navega manualmente a la página de fixtures en es.whoscored.com
+#   2. La URL tiene el patrón:
+#      /regions/{region_id}/tournaments/{tournament_id}/seasons/{season_id}/
+#      stages/{stage_id}/fixtures/{slug}
+#   3. Copia esos IDs aquí. Son estables durante toda la temporada.
+#   4. Para la siguiente temporada: solo actualiza season_id, stage_id y
+#      fixtures_url. El resto no cambia.
+#
+# IMPORTANTE:
+#   - comp_key debe ser único y snake_case. Es la clave que se usa en todo
+#     el código: pipeline, DB, API endpoints, logs.
+#   - tier: 0=europeo/internacional, 1=primera división, 2=segunda división
+#   - Los season_id marcados con '# TODO' hay que buscarlos manualmente.
+# =============================================================================
+
+competitions:
+
+  # ---------------------------------------------------------------------------
+  # PRIMERA DIVISIÓN — LIGAS NACIONALES
+  # ---------------------------------------------------------------------------
+
+  laliga:
+    display_name: "La Liga"
+    country: "Spain"
+    tier: 1
+    ws_region_id: 206
+    ws_tournament_id: 4
+    shield_path: "assets/shields/LaLiga/Logos/espana.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10803
+        ws_stage_id: 24622
+        fixtures_url: "https://es.whoscored.com/regions/206/tournaments/4/seasons/10803/stages/24622/fixtures/espa%C3%B1a-laliga-2025-2026"
+
+  premier_league:
+    display_name: "Premier League"
+    country: "England"
+    tier: 1
+    ws_region_id: 252
+    ws_tournament_id: 2
+    shield_path: "assets/shields/Premier League/Logos/inglaterra.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10743
+        ws_stage_id: 24533
+        fixtures_url: "https://es.whoscored.com/regions/252/tournaments/2/seasons/10743/stages/24533/fixtures/inglaterra-premier-league-2025-2026"
+
+  bundesliga:
+    display_name: "Bundesliga"
+    country: "Germany"
+    tier: 1
+    ws_region_id: 81
+    ws_tournament_id: 3
+    shield_path: "assets/shields/Bundesliga/Logos/alemania.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10720
+        ws_stage_id: 24478
+        fixtures_url: "https://es.whoscored.com/regions/81/tournaments/3/seasons/10720/stages/24478/fixtures/alemania-bundesliga-2025-2026"
+
+  serie_a:
+    display_name: "Serie A"
+    country: "Italy"
+    tier: 1
+    ws_region_id: 108
+    ws_tournament_id: 5
+    shield_path: "assets/shields/Serie A/Logos/italia.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10732
+        ws_stage_id: 24500
+        fixtures_url: "https://es.whoscored.com/regions/108/tournaments/5/seasons/10732/stages/24500/fixtures/italia-serie-a-2025-2026"
+
+  ligue_1:
+    display_name: "Ligue 1"
+    country: "France"
+    tier: 1
+    ws_region_id: 74
+    ws_tournament_id: 22
+    # NOTA: la carpeta local se llama "League One" por error histórico. Es Ligue 1.
+    shield_path: "assets/shields/League One/Logos/francia.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10792
+        ws_stage_id: 24609
+        fixtures_url: "https://es.whoscored.com/regions/74/tournaments/22/seasons/10792/stages/24609/fixtures/francia-ligue-1-2025-2026"
+
+  # ---------------------------------------------------------------------------
+  # COMPETICIONES EUROPEAS
+  # Nota sobre stages múltiples:
+  # UCL y UEL tienen dos stages en la misma temporada:
+  #   - stage_league: fase de liga/grupos (todas las jornadas en un solo stage)
+  #   - stage_knockout: eliminatorias (16avos, 8vos, cuartos, semis, final)
+  # El scraper deberá iterar sobre ambos stages para cubrir toda la competición.
+  # Los stage_id de KO se usan solo para fixtures, no cambian el match_id.
+  # ---------------------------------------------------------------------------
+
+  champions_league:
+    display_name: "UEFA Champions League"
+    country: "Europe"
+    tier: 0
+    ws_region_id: 250
+    ws_tournament_id: 12   # corregido: la URL usa /tournaments/12/, no 7
+    shield_path: "assets/shields/UEFA/uefa.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10903
+        stages:
+          league:
+            ws_stage_id: 24796
+            fixtures_url: "https://es.whoscored.com/regions/250/tournaments/12/seasons/10903/stages/24796/fixtures/europa-champions-league-2025-2026"
+          knockout:
+            ws_stage_id: 24797
+            fixtures_url: "https://es.whoscored.com/regions/250/tournaments/12/seasons/10903/stages/24797/fixtures/europa-champions-league-2025-2026"
+
+  europa_league:
+    display_name: "UEFA Europa League"
+    country: "Europe"
+    tier: 0
+    ws_region_id: 250
+    ws_tournament_id: 30
+    shield_path: "assets/shields/UEFA/uefa.png"
+    seasons:
+      "2025-2026":
+        ws_season_id: 10904
+        stages:
+          league:
+            ws_stage_id: 24798
+            fixtures_url: "https://es.whoscored.com/regions/250/tournaments/30/seasons/10904/stages/24798/fixtures/europa-europa-league-2025-2026"
+          knockout:
+            ws_stage_id: 24799
+            fixtures_url: "https://es.whoscored.com/regions/250/tournaments/30/seasons/10904/stages/24799/fixtures/europa-europa-league-2025-2026"
+
+  # ---------------------------------------------------------------------------
+  # PLANTILLA PARA AÑADIR NUEVAS COMPETICIONES
+  # ---------------------------------------------------------------------------
+  # nueva_competicion:
+  #   display_name: "Nombre oficial"
+  #   country: "País"
+  #   tier: 1
+  #   ws_region_id: XXXX      ← del segmento /regions/XXXX/ en la URL
+  #   ws_tournament_id: XXXX  ← del segmento /tournaments/XXXX/ en la URL
+  #   shield_path: "assets/shields/..."
+  #   seasons:
+  #     "2025-2026":
+  #       ws_season_id: XXXX  ← del segmento /seasons/XXXX/ en la URL
+  #       ws_stage_id: XXXX   ← del segmento /stages/XXXX/ en la URL
+  #       fixtures_url: "https://es.whoscored.com/regions/.../fixtures/..."

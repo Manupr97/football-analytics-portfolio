@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entorno
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal files
+.claude/
+
+# Node (scouting-crm-case-study no tiene código, pero por si acaso)
+node_modules/
+
+# Archivos binarios de modelo (cada proyecto gestiona sus excepciones)
+*.joblib
+*.pkl
+*.h5

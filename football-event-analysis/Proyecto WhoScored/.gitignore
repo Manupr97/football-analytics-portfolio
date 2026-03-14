@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Entornos
+.venv/
+venv/
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos — excluir matchcenter (535 MB, regenerable via scraper)
+data/raw/matchcenter/
+
+# Datos — permitir archivos ligeros y de referencia
+# data/dictionaries/       ✓ publicable (28 KB)
+# data/processed/index/    ✓ publicable (24 KB)
+# data/raw/fbref/          ✓ publicable (951 KB)
+# data/raw/fixtures/       ✓ publicable (14 KB)
+
+# Visualizaciones
+Visualizaciones/
+
+# IDE / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

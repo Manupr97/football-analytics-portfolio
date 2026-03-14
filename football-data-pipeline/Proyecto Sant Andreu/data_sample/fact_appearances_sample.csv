@@ -1,0 +1,11 @@
+match_id,player_id,player_sk,player_name,team_id,team_name,position,shirt_number,is_starter,minute_in,side,fecha_actualizacion
+202621129,73948,73948,Marc Mas,4781,UE Olot,Delantero,9,True,0,visitor,2026-03-09
+202621129,81638,81638,R. Costa,4781,UE Olot,Defensa,4,False,,visitor,2026-03-09
+202621129,117360,117360,Rodrigo Sanz,427,Barbastro,Delantero,10,True,0,local,2026-03-09
+202621129,140669,140669,P. Del Campo,4781,UE Olot,midfielder,11,True,0,visitor,2026-03-09
+202621129,170088,170088,Mingotes,427,Barbastro,Defensa,4,True,0,local,2026-03-09
+202621129,170455,170455,Uri Ayala,4781,UE Olot,Defensa,6,True,0,visitor,2026-03-09
+202621129,170559,170559,Pau López,4781,UE Olot,midfielder,16,False,73,visitor,2026-03-09
+202621129,176420,176420,Pol Ballesté,4781,UE Olot,Portero,1,True,0,visitor,2026-03-09
+202621129,311499,311499,Sito,427,Barbastro,Defensa,21,True,0,local,2026-03-09
+202621129,337044,337044,Monty,427,Barbastro,Defensa,5,True,0,local,2026-03-09

@@ -1,0 +1,11 @@
+match_id,minute,player_in_id,player_in_sk,player_in_name,player_out_id,player_out_sk,player_out_name,team_id,team_name,side,fecha_actualizacion
+202621129,62,1017604,1017604,H. Bautista,117360,117360,Rodrigo Sanz,427,Barbastro,local,2026-03-09
+202621129,64,3302678,3302678,S. Marcillo,3430315,3430315,M. Puigbert,4781,UE Olot,visitor,2026-03-09
+202621129,71,1019172,1019172,Hugo Anglada,1005056,1005056,Manu Cardiel,427,Barbastro,local,2026-03-09
+202621129,73,170559,170559,Pau López,355669,355669,Rubén Enri,4781,UE Olot,visitor,2026-03-09
+202621129,85,1004907,1004907,Lucas Acín,849752,849752,Eder,427,Barbastro,local,2026-03-09
+202621129,85,3188011,3188011,I. Estrecha,833686,833686,Kun,427,Barbastro,local,2026-03-09
+202621129,86,3541379,3541379,X. Paradas,550854,550854,Albert López,4781,UE Olot,visitor,2026-03-09
+202621135,46,339189,339189,A. Parra,186427,186427,Armando,2518,Torrent CF,visitor,2026-03-09
+202621135,56,319036,319036,Giovanni,875090,875090,C. Mas,138431,Atlètic Lleida,local,2026-03-09
+202621135,70,204205,204205,A. One,1003932,1003932,Álvaro Santana,138431,Atlètic Lleida,local,2026-03-09

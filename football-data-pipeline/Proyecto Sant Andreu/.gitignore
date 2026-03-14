@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — HTML cache (regenerable via scrapers)
+html/
+data_raw/
+
+# Data — processed (too large / club-private)
+data_processed/
+outputs_powerbi/
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env

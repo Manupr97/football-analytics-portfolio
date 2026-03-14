@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entorno
+.env
+
+# Datos raw — 3.3GB de parquets, regenerables con el scraper
+data/raw/matchcenter/
+
+# Datos procesados intermedios — regenerables con el pipeline
+data/features/features_model_raw.parquet
+
+# El modelo normalizado SÍ se publica en el repo:
+# data/features/features_model.parquet
+
+# Scalers — regenerables
+models/scalers/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

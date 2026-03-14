@@ -1,0 +1,11 @@
+match_id,match_url,jornada,fecha,fecha_display,home_team_id,home_team_name,away_team_id,away_team_name,score_home,score_away,status,fecha_actualizacion
+202621129,https://es.besoccer.com/partido/barbastro/ue-olot/202621129,1,2025-09-06,06 SEP 2025,427,Barbastro,4781,UE Olot,1,1,Finalizado,2026-03-09
+202621135,https://es.besoccer.com/partido/club-esportiu-atletic-lleida-2019/torrent-ef/202621135,1,2025-09-07,07 SEP 2025,138431,Atlètic Lleida,2518,Torrent CF,2,2,Finalizado,2026-03-09
+202621139,https://es.besoccer.com/partido/barcelona-b/porreres-senior/202621139,1,2025-09-07,07 SEP 2025,430,Barça Atlètic,85201,Porreres,2,0,Finalizado,2026-03-09
+202621145,https://es.besoccer.com/partido/cd-atletico-baleares/castellon-b/202621145,1,2025-09-06,06 SEP 2025,5465,Atlético Baleares,653,CD Castellón B,3,0,Finalizado,2026-03-09
+202621152,https://es.besoccer.com/partido/andratx/sant-andreu/202621152,1,2025-09-06,06 SEP 2025,222,CE Andratx,2247,UE Sant Andreu,1,0,Finalizado,2026-03-09
+202621156,https://es.besoccer.com/partido/ibiza-i-pitiusas/terrassa-ii/202621156,1,2025-09-07,07 SEP 2025,66187,SD Ibiza,16545,Terrassa FC,1,0,Finalizado,2026-03-09
+202621159,https://es.besoccer.com/partido/alcoyano/valencia-mestalla/202621159,1,2025-09-07,07 SEP 2025,157,Alcoyano,3902,Valencia Mestalla,2,2,Finalizado,2026-03-09
+202621162,https://es.besoccer.com/partido/cf-reddis/girona-fc-b/202621162,1,2025-09-07,07 SEP 2025,6215,Reus FC Reddis,11972,Girona FC B,1,0,Finalizado,2026-03-09
+202621164,https://es.besoccer.com/partido/poblense/espanyol-b/202621164,1,2025-09-06,06 SEP 2025,1981,Poblense,999,Espanyol B,1,0,Finalizado,2026-03-09
+202623960,https://es.besoccer.com/partido/sant-andreu/alcoyano/202623960,2,2025-09-14,14 SEP 2025,2247,UE Sant Andreu,157,Alcoyano,0,0,Finalizado,2026-03-09

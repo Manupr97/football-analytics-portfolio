@@ -1,0 +1,11 @@
+match_id,eventId,minute,second,expandedMinute,period,teamId,playerId,x,y,typeName,outcomeName,qualifiers
+1913916,6,0,43.0,0,1,2783,70033.0,45.0,58.8,BallRecovery,Successful,[]
+1913916,12,1,18.0,1,1,64,236575.0,34.2,88.0,BallRecovery,Successful,[]
+1913916,22,1,27.0,1,1,2783,92691.0,12.3,29.1,BallRecovery,Successful,[]
+1913916,35,2,50.0,2,1,2783,404245.0,36.0,67.3,BallRecovery,Successful,[]
+1913916,23,3,32.0,3,1,64,80758.0,32.9,61.4,BallRecovery,Successful,[]
+1913916,45,3,38.0,3,1,2783,104732.0,9.6,42.4,BallRecovery,Successful,[]
+1913916,25,3,55.0,3,1,64,422959.0,38.0,43.1,BallRecovery,Successful,[]
+1913916,53,4,35.0,4,1,2783,444242.0,41.2,89.4,BallRecovery,Successful,[]
+1913916,41,4,36.0,4,1,64,372331.0,59.0,14.6,Tackle,Unsuccessful,"[{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""54""},{""type"":{""value"":285,""displayName"":""Defensive""}},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Right""},{""type"":{""value"":178,""displayName"":""StandingSave""}}]"
+1913916,42,4,40.0,4,1,64,372331.0,48.7,5.4,Challenge,Unsuccessful,"[{""type"":{""value"":285,""displayName"":""Defensive""}},{""type"":{""value"":233,""displayName"":""OppositeRelatedEvent""},""value"":""56""},{""type"":{""value"":56,""displayName"":""Zone""},""value"":""Back""}]"

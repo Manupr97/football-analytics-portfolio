@@ -7,7 +7,7 @@ Portfolio de proyectos de análisis de datos aplicados al scouting y al análisi
 ## Proyectos
 
 ### [Pipeline de datos de fútbol](./football-data-pipeline/Proyecto Sant Andreu/)
-Pipeline ETL automatizado que extrae datos de partidos desde BeSoccer, parsea el HTML y construye un modelo dimensional listo para análisis en Power BI. Desarrollado para el seguimiento del CE Sant Andreu en la Segunda RFEF Grupo 3.
+Pipeline ETL automatizado que extrae datos de partidos desde BeSoccer, parsea el HTML y construye un modelo dimensional listo para análisis en Power BI. Desarrollado para el seguimiento del UE Sant Andreu en la Segunda RFEF Grupo 3.
 
 Extrae clasificación, calendarios, alineaciones y eventos de partido. Transforma los datos en un modelo dimensional con dimensiones y tablas de hechos, y exporta archivos Parquet de forma incremental.
 
